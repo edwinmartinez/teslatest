@@ -1,0 +1,5 @@
+.DS_Store
+lib/
+include/
+*.pyc
+teslapoll_env/pollapp/__pycache__/
