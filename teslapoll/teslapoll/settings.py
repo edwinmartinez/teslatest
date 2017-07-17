@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'teslapolldb',
-        'USER': 'root',
-        'PASSWORD': '2kdado',
+        'USER': 'teslapolluser',
+        'PASSWORD': '123',
         'HOST': 'localhost',
     }
 }
