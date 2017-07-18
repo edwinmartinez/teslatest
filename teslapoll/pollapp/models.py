@@ -16,7 +16,6 @@ class Possible_ans(models.Model):
 	ans_text = models.CharField(max_length=255)
 
 class Actual_ans(models.Model):
-	user_id = models.ForeignKey(User, unique=True)
 	poll_id = models.ForeignKey(Poll, on_delete=models.CASCADE)
 	question_no = models.ForeignKey(Question, on_delete=models.CASCADE)
 	ans_no = models.ForeignKey(Possible_ans, on_delete=models.CASCADE)
